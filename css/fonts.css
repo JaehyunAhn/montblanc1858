@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+* {
+    font-family: 
+        'Sans-serif', 
+        'Spoqa Han Sans',
+        'Spoqa Han Sans Light',
+        'Spoqa Han Sans Bold',
+        'Spoqa Han Sans Regular'
+}
+
+.font-Light {
+    font-weight: 200;
+}
+
+.font-Regular {
+    font-weight: 330;
+}
+
+.font-Bold {
+    font-weight: 500;
+}
+
+.font-BBold {
+    font-weight: 600;
+}
