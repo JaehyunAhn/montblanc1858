@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* color: grey: #b4b4b4, cartier red: #a30001 */
+
+@font-face {
+    font-family: 'DidotRegular';
+    src: url(../fonts/Didot%20Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SpoqaSans';
+    src: url(../fonts/SpoqaHanSansRegular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumGothic';
+    src: url(../fonts/NanumGothic.ttf) format('truetype');
+}
+
+body {
+    /* 기본 */
+    margin: 0;
+    padding: 0;
+    /* 폰트 */
+    font-family: NanumGothic;
+    font-size: 1em;
+    color: #000;
+}
+
+.cartier-carpet {
+    /* 배경화면 */
+    background: #ad1500 url(../images/meta/tile.jpg) repeat;
+}
+
+.blur-effect {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 4px); }
+    to   { transform: translate(0, -0px); }
+}
+
+.floating1 {
+    animation-name: floating1;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+@keyframes floating1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 8px); }
+    to   { transform: translate(0, -0px); }
+}
+
+.floating2 {
+    animation-name: floating2;
+    animation-duration: 3.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+@keyframes floating2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 8px); }
+    to   { transform: translate(0, -0px); }
+}
+
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    body {
+        line-height: 130%;
+    }
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 768px) {
+    body {
+        line-height: 160%;
+    }
+}
+
+.button {
+    z-index: 1000;
+}
+
+/* detail changes */
+
+/* 모바일 iphone 5*/
+@media screen
+and (max-width: 320px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 62%;
+    }
+}
+
+/* mobile iphone 6 */
+@media screen
+and (min-width: 321px)
+and (max-width: 375px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 59%;
+    }
+}
+
+/* mobile iphone 6+ */
+@media screen
+and (min-width: 376px)
+and (max-width: 414px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 59%;
+    }
+}
+
+/* pads */
+@media screen
+and (min-width: 415px)
+and (max-width: 767px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 55%;
+    }
+}
+
+/* iPad mini to Pro */
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 55%;
+    }
+}
+
+/* desktops */
+@media screen
+and (min-width: 1025px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 55%;
+    }
+}

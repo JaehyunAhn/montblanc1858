@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+#menu {
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+}
+
+#menu-mobile {
+    z-index: 100;
+    background-color: rgba(100, 100, 100, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 0.9em;
+}
+
+#navigation_text {
+    color: white;
+}
+
+.menu_button {
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+
+#button_left {
+    width: 30px;
+    height: auto;
+}
+
+#button_right {
+    width: 30px;
+    height: auto;
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    #menu {
+        width: 100%;
+    }
+    .menu_button {
+        visibility: visible;
+    }
+    #menu-mobile {
+        visibility: visible;
+    }
+
+    #menu-desktop {
+        visibility: hidden;
+        position: fixed;
+    }
+    #hamburger {
+        visibility: hidden;
+    }
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 769px) {
+    #menu {
+        position: fixed;
+        right: 0;
+    }
+
+    #menu-mobile {
+        width: 0;
+        visibility: hidden;
+    }
+
+    /* 데스크탑 메뉴 디테일  */
+    #menu-desktop {
+        display: none;
+        z-index: 1000;
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        margin-left: -200px;
+        box-shadow: 3px 3px 5px rgba(40,40,40,0.6);
+    }
+    .menu-item {
+        width: 400px;
+        padding: 6% 0 6% 0;
+        /* 텍스트 세팅 */
+        text-align: center;
+        background-color: rgba(30, 30, 30, 0.8);
+    }
+    .menu-item:hover {
+        background-color: #767676;
+    }
+    /* 햄버거 제어 */
+    #hamburger {
+        background-color: rgba(163, 0, 1, 0.6);
+        border-radius: 5px;
+        visibility: visible;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        margin: 0 15px 15px 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        float: right;
+    }
+    #hamburger span {
+        display: block;
+        position: absolute;
+        /* 햄버거 두께 */
+        height: 3px;
+        width: 36px;
+        background: #F6F6F6;
+        border-radius: 12px;
+        opacity: 1;
+        left: 2px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+    #hamburger span:nth-child(1) {
+        top: 8px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+    }
+
+    #hamburger span:nth-child(2) {
+        top: 19px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+    }
+
+    #hamburger span:nth-child(3) {
+    top: 30px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    }
+
+    #hamburger.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 6px;
+    left: 7px;
+    }
+
+    #hamburger.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+    }
+
+    #hamburger.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 31px;
+    left: 7px;
+    }
+}
+
+a.menu-jumper {
+    text-decoration: none;
+    color: #ad1500;
+    font-size: 1.2em;
+}
+
+a.menu-jumper:hover {
+    color: white;
+}
