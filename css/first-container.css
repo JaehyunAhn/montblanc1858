@@ -2,10 +2,68 @@
 
 /* under iPad Pro */
 @media screen and (max-width: 1023px) {
-    
+    video {
+        display: none;
+    }
 }
 
 /* over iPad Pro + Desktop */
 @media screen and (min-width: 1024px) {
+    video {
+        display: inherit;
+        z-index: 15;
+    }
+}
+
+body, html {
+    height: 100%;
+}
+
+#first-container {
+    /* 
+        IMAGE FIXED vh: 반응형 웹
+        * url: https://webdesign.tutsplus.com/ko/articles/7-css-units-you-might-not-know-about--cms-22573 
+    */
+    height: 100vh;
+}
+
+#first-container > #palette {
+    background-image: url(../images/first-container/background-image.jpg);
     
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first-container > #palette > #gray_layer {
+    position: relative;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 10;
+}
+
+#first-container > #palette > video {
+    position: absolute;
+    height: 100vh;
+    z-index: 15;
+}
+
+#first-container > #palette > #contents {
+    position: absolute;
+    top: 20vh;
+    left: 50%;
+    
+    /* 
+    This is a shorthand of translateX(-50%) and translateY(0%) 
+    */
+    transform: translate(-50%, 0);
+    z-index: 15;
+}
+
+#first-container > #palette > #contents > center > p {
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    color: rgba(240,240,240,0.9);
 }

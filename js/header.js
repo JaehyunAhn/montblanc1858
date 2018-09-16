@@ -10,7 +10,7 @@ $(window).on("load", function () {
     /* scroll 시 TOP 애니메이션 설정 */
     $(window).scroll(function () {
         var height = $(document).scrollTop();
-        if (height <= 100) {
+        if (height <= 40) {
             $('#header-container').removeClass('active');
         } else {
             $('#header-container').addClass('active');

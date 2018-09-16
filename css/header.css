@@ -26,6 +26,7 @@
 }
 
 #header-container {
+    z-index: 100;
     position: fixed;
     padding: 10px;
     width: 100%;
@@ -44,7 +45,7 @@
 }
 
 #header-container.active {
-    background-color: rgba(240, 120, 0, 1);
+    background-color: rgba(35, 40, 38, 0.9);
 }
 
 #header-container > .cell {
