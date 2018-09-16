@@ -7,22 +7,41 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta property="og:locale" content="ko_KR">
         <meta property="og:type" content="website">
+        <!-- JQuery Mobile -->
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
         <!-- SCRIPTs -->
-        <script type='text/javascript' src=''></script>
+        <script type='text/javascript' src='./js/header.js'></script>
         <!-- CSSs -->
         <link rel='shortcut icon' href='./images/components/favicon.ico'>
         <link rel='stylesheet' href='./css/fonts.css'>
+        <link rel='stylesheet' href='./css/header.css'>
         <title>
             몽블랑 1858 컬렉션 X 타임포럼
         </title>
     </head>
     <body>
-       <!-- fixed part -->
-       <div id='header'>
-           <!-- header 를 채우시오 -->
-       </div>
-       <div id='footer'>
-           <!-- footer 를 채우시오 -->
-       </div>
+        <script> // close button clicked
+            function close_window() {
+                window.open(location, '_self', '');
+                window.close();
+            }
+        </script>
+        <!-- fixed part -->
+        <div id='header'>
+            <div id='hamburger'>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id='footer'>
+            <!-- footer 를 채우시오 -->
+        </div>
+        <!-- contents -->
+        <div>
+
+        </div>
     </body>
 </html>
