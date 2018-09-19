@@ -50,3 +50,8 @@ and (max-width: 1024px) {
 and (min-width: 1025px) {
 
 }
+
+a {
+    outline: none;
+    outline: 0;
+}

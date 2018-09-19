@@ -38,7 +38,9 @@
                     <span></span>
                     <span></span>
                 </div>
-                <img id='montblanc_logo' class='logo' src='images/components/Montblanc-logo-white-200.png'>
+                <a href="./index.html">
+                    <img id='montblanc_logo' class='logo' src='images/components/Montblanc-logo-white-200.png'>
+                </a>
             </div>
             <div class='cell' style='margin-right: 5px;'>
                 <img id='timeforum_logo' class='logo' src='./images/components/tf_lgo.png'>
@@ -54,9 +56,9 @@
             <div id='contents'></div>
             <div id='first-container'>
                 <div id='palette'>
-                    <video autoplay loop muted src='./video/movie1.mp4' loop webkit-playsinline playsinline type="video/mp4">
-                        <source src='./video/movie1.mp4' type='video/mp4'>
-                        <source src='./video/movie1.ogg' type='video/ogg'>
+                    <video autoplay loop muted poster="./images/first-container/cannot_playable.png">
+                        <source src="./video/movie1.mp4" type="video/mp4">
+                        <source src="./video/movie1.webm" type="video/webm">
                     </video>
                     <div id='gray_layer'></div>
                     <div id='contents'>
@@ -69,9 +71,11 @@
                             </p>
                             <br>
                             <p style="font-size: 20px;">
+<!--                               <iframe width="560" height="315" src="https://www.youtube.com/embed/gT-5ZIYares?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
                                 WATCH
                                 <input type='image' align='top' src='./images/first-container/play-button.png' 
-                                       style='width: 30px;' 
+                                       style='width: 30px;outline: none;outline: 0;' 
+                                       onClick="window.open('https://youtu.be/gT-5ZIYares')"
                                        onMouseOver="this.src='./images/first-container/play-button-hover.png'" 
                                        onMouseOut="this.src='./images/first-container/play-button.png'">
                                 TRAILER

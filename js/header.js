@@ -1,4 +1,4 @@
-/*global $, window, console, document */
+/*global $, window, document */
 
 /* when hamburger opened */
 $(window).on("load", function () {
