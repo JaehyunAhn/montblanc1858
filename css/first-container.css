@@ -1,9 +1,10 @@
 @charset: "UTF-8";
 
-/* under iPad Pro */
+/* under iPad 833 */
 @media screen and (max-width: 833px) {
     video {
-        display: none;
+        display: inherit;
+        z-index: 15;
     }
 }
 
@@ -25,6 +26,7 @@ body, html {
         * url: https://webdesign.tutsplus.com/ko/articles/7-css-units-you-might-not-know-about--cms-22573 
     */
     height: 100vh;
+    width: auto;
 }
 
 #first-container > #palette {
@@ -48,6 +50,7 @@ body, html {
 #first-container > #palette > video {
     position: absolute;
     height: 100vh;
+    width: auto;
     z-index: 9;
 }
 

@@ -60,10 +60,10 @@ and (max-width: 767px) {
     }
     
     #minerva_logo {
-        margin-top: 20%;
+        margin-top: 7%;
         margin-bottom: -6%;
         width: 40%; 
-        height: 40%; 
+        height: auto; 
     }
 }
 
@@ -87,7 +87,7 @@ and (max-width: 1024px) {
     
     #minerva_logo {
         width: 30%;
-        height: 30%;
+        height: auto;
         margin-top: 2%;
     }
 }
@@ -112,7 +112,7 @@ and (min-width: 1025px) {
     
     #minerva_logo {
         width: 25%;
-        height: 25%;
+        height: auto;
         margin-top: 2%;
     }
 }

@@ -14,6 +14,8 @@
         <!-- SCRIPTs -->
         <script type='text/javascript' src='./js/header.js'></script>
         <script type='text/javascript' src='./js/dissolve_scroll.js'></script>
+        <!-- chrome 에서 비디오 재생시 필수 -->
+        <script type='text/javascript' src='./js/video.js'></script>
         <!-- CSSs -->
         <link rel='shortcut icon' href='./favicon.ico'>
         <link rel='stylesheet' href='./css/fonts.css'>
@@ -62,9 +64,10 @@
             <!-- first container: movie -->
             <div id='first-container'>
                 <div id='palette'>
-                    <video autoplay loop muted poster="./images/first_container/cannot_playable.png">
-                        <source src="./video/movie1.mp4" type="video/mp4">
-                        <source src="./video/movie1.webm" type="video/webm">
+                     <video id='main_video' autoplay muted loop webkit-playsinline playsinline type="video/mp4" poster="./images/first_container/cannot_playable.png">
+                        <source src="./video/movie1_conv.mp4" type="video/mp4">
+                        <source src="./video/movie1_conv.webm" type="video/webm">
+                        <source src="./video/movie1_conv.ogv" type="video/ogg">
                     </video>
                     <div id='gray_layer'></div>
                     <div id='contents'>
@@ -109,7 +112,7 @@
                     <center>
                         <a id='button_2' href='http://google.com' target="_blank">
                             <button type='button' class='button_item' style='
-                            width: 40%;
+                            width: 70%;
                             display: inline-block;
                             border: none;
                             padding: 0.5rem 1rem;
@@ -130,29 +133,34 @@
             </div>
             <div id='third_1858column'>               
                 <!-- 1858 Collection Column -->
+                
                 <div class='clear'></div>
             </div>
             <div id='fourth_reviews'>
                 <!-- 4four kind watches review -->
+                
                 <div class='clear'></div>
             </div>
             <div id='fifth_detail_view'>
                 <!-- watch detail introduction -->
+                
                 <div class='clear'></div>
             </div>
             <div id='sixth_gallery_view'>
                 <!-- galleries -->
+                
                 <div class='clear'></div>
             </div>
             <div id='seventh_QR_code'>
                 <!-- QR Code section -->
+                
                 <div class='clear'></div>
             </div>
             <div id='footer'>
                 <!-- footer view -->
                 <div class="dummy" style="height:30px;"></div>
                 <center>
-                    <img src='./images/footer/logo.png'>
+                    <img src='./images/footer/logo.png' width='200px', height='auto'>
                 </center>
                 <div class="dummy" style="height:30px;"></div>
                 <div class='clear'></div>
