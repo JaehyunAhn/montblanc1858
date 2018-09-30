@@ -10,7 +10,24 @@
 .left-container {
     float: left;
     left: 0;
+    display: none;
 }
+
+#minerva_logo {
+    display: none;
+}
+
+#title_2 {
+    display: none;
+}
+
+#text_2 {
+    display: none;
+}
+#button_2 {
+    display: none;
+}
+
 
 .left-container > img {
     position: absolute;
@@ -94,8 +111,8 @@ and (min-width: 1025px) {
     }
     
     #minerva_logo {
-        width: 30%;
-        height: 30%;
-        margin-top: 5%;
+        width: 25%;
+        height: 25%;
+        margin-top: 2%;
     }
 }

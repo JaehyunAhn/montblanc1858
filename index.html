@@ -13,6 +13,7 @@
         <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
         <!-- SCRIPTs -->
         <script type='text/javascript' src='./js/header.js'></script>
+        <script type='text/javascript' src='./js/dissolve_scroll.js'></script>
         <!-- CSSs -->
         <link rel='shortcut icon' href='./favicon.ico'>
         <link rel='stylesheet' href='./css/fonts.css'>
@@ -48,8 +49,8 @@
             </div>
             <div class='cell right' style='margin-right: 5px;'>
                 <img id='timeforum_logo' class='logo' src='./images/components/tf_lgo.png'>
-                <button class='button_none' onclick="javascript:close_window();">
-                    <img id='x_btn' src='./images/components/x_btn.png' style="width: 15px; height: 15px; margin-top: 8px; margin-right: 15px; margin-left: 7px;">
+                <button type='button' class='button_none' onclick="javascript:close_window();" style='background:transparent; border:none; outline:none; width:20px; height: 20px; padding: 0; margin-right: 20px; margin-left: 5px;'>
+                    <img id='x_btn' src='./images/components/x_btn.png' style="width: 15px; height: 15px;">
                 </button>
             </div>
         </div>
@@ -98,16 +99,29 @@
                     <center>
                         <img id='minerva_logo' src='images/second_minerva/minerva_logo.png'>
                     </center>
-                    <h2 style='line-height: 1.5em; padding: 10px;'>
+                    <h2 id='title_2' style='line-height: 1.5em; padding: 10px;'>
                         160년간 이어져온 유산을 기념하며: 새로운 차원으로의 도약
                     </h2>
-                    <p style="padding: 10px;">
+                    <p id='text_2' style="padding: 10px;">
                         2018년은 몽블랑의 파인 워치메이킹을 통해 오늘날까지도 유서 깊은 역사를 이어가는 미네르바 매뉴팩쳐 설립 160주년을 기념하는 해이다.<br><br>                        
                         오늘날 몽블랑의 타임피스는 160여 년간 이어져 온 미네르바의 유산을 토대로 전설적인 밀리터리 시계(몽블랑 1858)에 기반을 둔 산악 탐험 정신과 클래식 포켓 워치 및 손목 시계(스타 레거시 컬렉션)를 중심으로 하는 클래식 파인 워치메이킹 정신, 타임키퍼와 스톱워치(타임워커 컬렉션)에 기반을 둔 레이싱 정신이라는 세 가지 고유한 파인 워치메이킹 연구에 집중함으로써 디자인과 스타일, 기술 혁신을 통해 과거와 현재를 하나로 이어주고 있다.
                     </p>
                     <center>
-                        <a href='http://google.com' target="_blank">
-                            <button class='button_item'>자세히 알아보기</button>
+                        <a id='button_2' href='http://google.com' target="_blank">
+                            <button type='button' class='button_item' style='
+                            width: 40%;
+                            display: inline-block;
+                            border: none;
+                            padding: 0.5rem 1rem;
+                            margin: 0;
+                            text-decoration: none;
+                            background: rgba(0,105,200,0.5);
+                            color: #ffffff;
+                            font-family: sans-serif;
+                            font-size: 1rem;
+                            cursor: pointer;
+                            text-align: center;'>
+                       자세히 알아보기</button>
                         </a>
                     </center>
                 </div>
