@@ -1,0 +1,101 @@
+@charset: "UTF-8";
+
+.wrap {
+    position: relative;
+    color: #fff;
+    background: linear-gradient(-30deg, #141210, #141220, #122014, #141230);
+    background-size: 100% 100%;
+}
+
+.left-container {
+    float: left;
+    left: 0;
+}
+
+.left-container > img {
+    position: absolute;
+    left: -300px;
+}
+
+.right-container {
+    background-color: rgba(0,0,0, 0.7);
+    position: absolute;
+    text-align: justify;
+    
+    float: right;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -moz-box;
+    display: boxl;
+}
+
+/* pads under mobile*/
+@media screen
+and (max-width: 767px) {
+    .right-container {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        display: inline-block;
+        line-height: 1.6em;
+        font-size: 1em;
+        overflow: hidden;
+    }
+    
+    #minerva_logo {
+        margin-top: 20%;
+        margin-bottom: -6%;
+        width: 40%; 
+        height: 40%; 
+    }
+}
+
+/* iPad mini to Pro */
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+    .right-container {
+        border-radius: 10px;
+        width: 70%;
+        height: 80%;
+        padding: 20px;
+        top: 5%;
+        right: 2.5%;
+        
+        line-height: 1.6em;
+        word-break: break-all;
+        overflow: hidden; 
+        -webkit-box-orient: vertical; 
+    }
+    
+    #minerva_logo {
+        width: 30%;
+        height: 30%;
+        margin-top: 2%;
+    }
+}
+
+/* desktops */
+@media screen
+and (min-width: 1025px) {
+    .right-container {
+        border-radius: 10px;
+        width: 60%;
+        height: 75%;
+        padding: 20px;
+        top: 10%;
+        right: 2%;
+        
+        font-size: 1em;
+        line-height: 1.6em;
+        word-break: break-all;
+        overflow: hidden; 
+        -webkit-box-orient: vertical; 
+    }
+    
+    #minerva_logo {
+        width: 30%;
+        height: 30%;
+        margin-top: 5%;
+    }
+}

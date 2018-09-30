@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+a {
+    outline: none;
+    outline: 0;
+}
+
+.clear {
+    clear:both;
+}
+
+.button_none {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+}
+
+.button_item {
+    display: inline-block;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    text-decoration: none;
+    background: rgba(0,105,237,0.5);
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.button_item:hover,
+.button_item:focus {
+    background: #0053ba;
+}
+
+.button_item:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.button_item:active {
+    transform: scale(0.99);
+}

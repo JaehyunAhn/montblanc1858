@@ -28,7 +28,7 @@ body, html {
 }
 
 #first-container > #palette {
-    background-image: url(../images/first-container/background-image.jpg);
+    background-image: url(../images/first_container/background-image.jpg);
     
     height: 100%;
     background-position: center;

@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
+.clear {
+    clear:both;
+}
+
+a {
+    outline: none;
+    outline: 0;
+}
+
+button {
+    outline: none;
+    outline: 0;
+    background-color: blue;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
 /* 모바일 */
 @media screen and (max-width: 768px) {
 
@@ -49,9 +68,4 @@ and (max-width: 1024px) {
 @media screen
 and (min-width: 1025px) {
 
-}
-
-a {
-    outline: none;
-    outline: 0;
 }

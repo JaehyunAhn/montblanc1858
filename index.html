@@ -14,11 +14,15 @@
         <!-- SCRIPTs -->
         <script type='text/javascript' src='./js/header.js'></script>
         <!-- CSSs -->
-        <link rel='shortcut icon' href='./images/components/favicon.ico'>
+        <link rel='shortcut icon' href='./favicon.ico'>
         <link rel='stylesheet' href='./css/fonts.css'>
         <link rel='stylesheet' href='./css/header.css'>
+        <link rel="stylesheet" href="./css/attributes.css">
+        
         <link rel='stylesheet' href='./css/main-container.css'>
         <link rel='stylesheet' href='./css/first-container.css'>
+        <link rel='stylesheet' href='./css/second_container.css'>
+        <link rel='stylesheet' href='./css/footer.css'>
         <title>
             몽블랑 1858 컬렉션 X 타임포럼
         </title>
@@ -42,9 +46,11 @@
                     <img id='montblanc_logo' class='logo' src='images/components/Montblanc-logo-white-200.png'>
                 </a>
             </div>
-            <div class='cell' style='margin-right: 5px;'>
+            <div class='cell right' style='margin-right: 5px;'>
                 <img id='timeforum_logo' class='logo' src='./images/components/tf_lgo.png'>
-                <img src='./images/components/x_btn.png' style="width: 15px; height: 15px; margin-top: 8px; margin-right: 15px; margin-left: 5px;">
+                <button class='button_none' onclick="javascript:close_window();">
+                    <img id='x_btn' src='./images/components/x_btn.png' style="width: 15px; height: 15px; margin-top: 8px; margin-right: 15px; margin-left: 7px;">
+                </button>
             </div>
         </div>
         <div id='footer'>
@@ -53,10 +59,9 @@
         <!-- contents -->
         <div id='main-container'>
             <!-- first container: movie -->
-            <div id='contents'></div>
             <div id='first-container'>
                 <div id='palette'>
-                    <video autoplay loop muted poster="./images/first-container/cannot_playable.png">
+                    <video autoplay loop muted poster="./images/first_container/cannot_playable.png">
                         <source src="./video/movie1.mp4" type="video/mp4">
                         <source src="./video/movie1.webm" type="video/webm">
                     </video>
@@ -64,39 +69,79 @@
                     <div id='contents'>
                         <center>
                             <p>
-                                <img src='./images/first-container/mountain.png' style='width: 80px;'><br>
+                                <img src='./images/first_container/mountain.png' style='width: 80px;'><br>
                                 <b><i>MONTBLANC</i></b><br>
                                 <i>1858</i><br>
                                 <i>COLLECTION</i>
                             </p>
                             <br>
                             <p style="font-size: 20px;">
-<!--                               <iframe width="560" height="315" src="https://www.youtube.com/embed/gT-5ZIYares?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
                                 WATCH
-                                <input type='image' align='top' src='./images/first-container/play-button.png' 
+                                <input type='image' align='top' src='./images/first_container/play-button.png' 
                                        style='width: 30px;outline: none;outline: 0;' 
                                        onClick="window.open('https://youtu.be/gT-5ZIYares')"
-                                       onMouseOver="this.src='./images/first-container/play-button-hover.png'" 
-                                       onMouseOut="this.src='./images/first-container/play-button.png'">
+                                       onMouseOver="this.src='./images/first_container/play-button-hover.png'" 
+                                       onMouseOut="this.src='./images/first_container/play-button.png'">
                                 TRAILER
                             </p>
                         </center>
                     </div>
                 </div>
+                <div class='clear'></div>
             </div>
-            <div id='e'>
-                <span>text</span>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
+            <div id='second_minerva' class='wrap'>
+                <!-- Minerva Column -->
+                <div class='left-container'>
+                    <img src='./images/second_minerva/minerva_movement.png'>
+                </div>
+                <div class='right-container' style="color: #f0f0f0">
+                    <center>
+                        <img id='minerva_logo' src='images/second_minerva/minerva_logo.png'>
+                    </center>
+                    <h2 style='line-height: 1.5em; padding: 10px;'>
+                        160년간 이어져온 유산을 기념하며: 새로운 차원으로의 도약
+                    </h2>
+                    <p style="padding: 10px;">
+                        2018년은 몽블랑의 파인 워치메이킹을 통해 오늘날까지도 유서 깊은 역사를 이어가는 미네르바 매뉴팩쳐 설립 160주년을 기념하는 해이다.<br><br>                        
+                        오늘날 몽블랑의 타임피스는 160여 년간 이어져 온 미네르바의 유산을 토대로 전설적인 밀리터리 시계(몽블랑 1858)에 기반을 둔 산악 탐험 정신과 클래식 포켓 워치 및 손목 시계(스타 레거시 컬렉션)를 중심으로 하는 클래식 파인 워치메이킹 정신, 타임키퍼와 스톱워치(타임워커 컬렉션)에 기반을 둔 레이싱 정신이라는 세 가지 고유한 파인 워치메이킹 연구에 집중함으로써 디자인과 스타일, 기술 혁신을 통해 과거와 현재를 하나로 이어주고 있다.
+                    </p>
+                    <center>
+                        <a href='http://google.com' target="_blank">
+                            <button class='button_item'>자세히 알아보기</button>
+                        </a>
+                    </center>
+                </div>
+                <img src='./images/second_minerva/dummy_movement.png'>
+                <div class='clear'></div>
+            </div>
+            <div id='third_1858column'>               
+                <!-- 1858 Collection Column -->
+                <div class='clear'></div>
+            </div>
+            <div id='fourth_reviews'>
+                <!-- 4four kind watches review -->
+                <div class='clear'></div>
+            </div>
+            <div id='fifth_detail_view'>
+                <!-- watch detail introduction -->
+                <div class='clear'></div>
+            </div>
+            <div id='sixth_gallery_view'>
+                <!-- galleries -->
+                <div class='clear'></div>
+            </div>
+            <div id='seventh_QR_code'>
+                <!-- QR Code section -->
+                <div class='clear'></div>
+            </div>
+            <div id='footer'>
+                <!-- footer view -->
+                <div class="dummy" style="height:30px;"></div>
+                <center>
+                    <img src='./images/footer/logo.png'>
+                </center>
+                <div class="dummy" style="height:30px;"></div>
+                <div class='clear'></div>
             </div>
         </div>
     </body>

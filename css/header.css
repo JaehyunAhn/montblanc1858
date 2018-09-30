@@ -1,15 +1,33 @@
 @charset "UTF-8";
 
-/* 모바일 */
+/* Mobile 모바일 */
 @media screen and (max-width: 768px) {
-    .logo {
-        height: 85%;
+    #header-container > .cell > a > img {
+        max-width: 100%;
+        max-height: 100%;
     }
+    
+    #header-container > .cell > img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    #montblanc_logo {
+        margin-top: -1px;
+        margin-left: 5px;
+        height: 80%;
+        width: inherit;
+    }
+    
     #timeforum_logo {
         margin-top: 2px;
+        height: 90%;
+        width: inherit;
     }
-    #montblanc_logo {
-        margin-top: -2px;
+    
+    #header-container > .right {
+        position: absolute;
+        right: 7px;
     }
 }
 
