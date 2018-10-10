@@ -11,10 +11,12 @@
 #third_1858column {
     position: relative;
     color: #fff;
+/*
     background: linear-gradient(-30deg, #141210, #141220, #122014, #141230);
     background-size: 100% 100%;
+*/
     width: 100vw;
-    height: auto;
+    height: 100%;
 }
 
 #third_text_wrap {
@@ -24,6 +26,9 @@
     padding: 10px;
 }
 
+#third_background_image {
+    margin-bottom: -3px;
+}
 
 #third_background_image > img {
     position: relative;

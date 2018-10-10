@@ -26,3 +26,8 @@
 .font-BBold {
     font-weight: 600;
 }
+
+/* jQuery mobile white shadow */
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    text-shadow: none;
+}
