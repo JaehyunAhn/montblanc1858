@@ -11,13 +11,15 @@
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <!-- outer library -->
+        <script type='text/javascript' src='./js/particles.js'></script>
+        <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js'></script>
         <!-- SCRIPTs -->
         <script type='text/javascript' src='./js/header.js'></script>
         <script type='text/javascript' src='./js/dissolve_scroll.js'></script>
+        <script type='text/javascript' src='./js/swiper.js'></script>
         <!-- chrome 에서 비디오 재생시 필수 -->
         <script type='text/javascript' src='./js/video.js'></script>
-        <!-- outer library -->
-        <script type='text/javascript' src='./js/particles.js'></script>
         <!-- CSSs -->
         <link rel='shortcut icon' href='./favicon.ico'>
         <link rel='stylesheet' href='./css/fonts.css'>
@@ -30,6 +32,8 @@
         <link rel='stylesheet' href='./css/third_container.css'>
         <link rel='stylesheet' href='./css/fourth_4watches.css'>
         <link rel='stylesheet' href='./css/footer.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css'>
+        <link rel='stylesheet' hreft='./css/swiper_settings.css'>
         <title>
             몽블랑 1858 컬렉션 X 타임포럼
         </title>
@@ -267,7 +271,28 @@
             </div>
             <div id='sixth_gallery_view'>
                 <!-- galleries -->
-                
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!-- Slide 1 -->
+                            <img src='./images/third_1858/1858_family-shot_low.jpg' width='100%' height='auto'>
+                        </div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">Slide 10</div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
                 <div class='clear'></div>
             </div>
             <div id='seventh_QR_code'>
