@@ -5,7 +5,7 @@
 $(window).on("load", function(){
     var video_source = document.querySelector('video');
     var video_storage = [
-        '../video/movie1_conv.mp4',
+        './video/movie1_conv.mp4',
     ];
     /*
     // check browser is chrome & safari;

@@ -1,14 +1,36 @@
 @charset: "UTF-8";
 
+#third_mountain_logo {
+    display: none;
+}
+
+#third_title {
+    display: none;
+}
+/*
+
+#third_text {
+    display: none;
+}
+*/
+/*
+#button_3 {
+    display: none;
+}
+*/
+
 #particles-js, #particles-js canvas {
     height: 100%;
     width: 100%;
     position: absolute;
-    background-color: rgba(0,0,0, 0.2);
+    background-color: rgba(0,0,0, 0.4);
     z-index: 10;
 }
 
 #third_1858column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     color: #fff;
 /*
@@ -21,9 +43,11 @@
 
 #third_text_wrap {
     position: absolute;
-    top: 0px;
     z-index: 15;
     padding: 10px;
+    line-height: 1.6em;
+    max-width: 90%;
+    text-align: justify;
 }
 
 #third_background_image {
@@ -41,21 +65,36 @@
 /* 모바일 iphone 5*/
 @media screen
 and (max-width: 320px) {
-    
+    #third_background_image > img {
+        position: relative;
+        z-index: 1;
+        width: auto;
+        height: 100vh;
+    }
 }
 
 /* mobile iphone 6 */
 @media screen
 and (min-width: 321px)
 and (max-width: 375px) {
-    
+    #third_background_image > img {
+        position: relative;
+        z-index: 1;
+        width: auto;
+        height: 100vh;
+    }
 }
 
 /* mobile iphone 6+ */
 @media screen
 and (min-width: 376px)
 and (max-width: 414px) {
-    
+    #third_background_image > img {
+        position: relative;
+        z-index: 1;
+        width: auto;
+        height: 100vh;
+    }
 }
 
 /* pads */

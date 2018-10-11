@@ -46,3 +46,12 @@ a {
 .button_item:active {
     transform: scale(0.99);
 }
+
+.ui-page-theme-a .ui-btn {
+    text-shadow: none;
+}
+
+.ui-page-theme-a .ui-btn:hover {
+    text-shadow: 0 1px 0 #010101;
+    opacity: 0.8;
+}
