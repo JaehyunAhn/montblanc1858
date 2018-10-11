@@ -5,6 +5,16 @@ a {
     outline: 0;
 }
 
+.h_title {
+    width: 100vw;
+    height: auto;
+    color: #f8f8ff;
+}
+
+.h_title:hover {
+    opacity: 0.7;
+}
+
 .clear {
     clear:both;
 }
