@@ -77,13 +77,13 @@ and (max-width: 414px) {
 and (min-width: 415px)
 and (max-width: 767px) {
     #fifth_front_wrap {
-        width: 45%;
-        height: 45%;
+        width: 30%;
+        height: 30%;
     }
 
     #fifth_back_wrap {
-        width: 45%;
-        height: 45%;
+        width: 30%;
+        height: 30%;
     }
 }
 
