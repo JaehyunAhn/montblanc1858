@@ -1,3 +1,83 @@
+#fifth_detail_view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #fifth_title {
     margin-left: 3%;
+    width: 100vw;
+    height: auto;
+}
+
+/* 모바일 iphone 5*/
+@media screen
+and (max-width: 320px) {
+    #fifth_front {
+        width: 45%;
+        height: 45%;
+    }
+
+    #fifth_back {
+        width: 45%;
+        height: 45%;
+    }
+}
+
+/* mobile iphone 6 */
+@media screen
+and (min-width: 321px)
+and (max-width: 375px) {
+    #fifth_front {
+        width: 45%;
+        height: 45%;
+    }
+
+    #fifth_back {
+        width: 45%;
+        height: 45%;
+    }
+}
+
+/* mobile iphone 6+ */
+@media screen
+and (min-width: 376px)
+and (max-width: 414px) {
+    #fifth_front {
+        width: 45%;
+        height: 45%;
+    }
+
+    #fifth_back {
+        width: 45%;
+        height: 45%;
+    }
+}
+
+/* pads */
+@media screen
+and (min-width: 415px)
+and (max-width: 767px) {
+    #fifth_front {
+        width: 45%;
+        height: 45%;
+    }
+
+    #fifth_back {
+        width: 45%;
+        height: 45%;
+    }
+}
+
+/* iPad mini to Pro */
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+
+}
+
+/* desktops */
+@media screen
+and (min-width: 1025px) {
+
 }
