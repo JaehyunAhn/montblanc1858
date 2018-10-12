@@ -21,7 +21,9 @@
         <script type='text/javascript' src='./js/swiper.js'></script>
         <!-- Jquery hotspot  -->
         <link rel='stylesheet' href='./css/jquery.hotspot.css'>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
         <script type='text/javascript' src='./js/jquery.hotspot.js'></script>
+        <script type='text/javascript' src='./js/detail_hotspot.js'></script>
         <!-- chrome 에서 비디오 재생시 필수 -->
         <script type='text/javascript' src='./js/video.js'></script>
         <!-- CSSs -->
@@ -322,9 +324,16 @@
                 <h2 id='fifth_title' class='h_title'>
                     디테일 살펴보기
                 </h2>
-                <img id='fifth_front' src='./images/fifth_detailview/front.png'>
-                <div id='fourth_dummy'></div>
-                <img id='fifth_back' src='./images/fifth_detailview/back.png'>
+                <!-- https://github.com/aniruddhanath/jquery-hotspot -->
+                <div id='hotspot_element'>
+                   <div id='fifth_front_wrap'>
+                        <img id='fifth_front' src='./images/fifth_detailview/front.png'>
+                    </div>
+                    <div id='fourth_dummy'></div>
+                    <div id='fifth_back_wrap'>
+                        <img id='fifth_back' src='./images/fifth_detailview/back.png'>
+                    </div>
+                </div>
                 <div class='clear'></div>
             </div>
             <div id='sixth_gallery_view'>

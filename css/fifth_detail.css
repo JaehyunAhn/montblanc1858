@@ -1,7 +1,15 @@
-#fifth_detail_view {
+#hotspot_element {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#fifth_front_wrap {
+    position: relative;
+}
+
+#fifth_back_wrap {
+    position: relative;
 }
 
 #fifth_title {
@@ -10,15 +18,25 @@
     height: auto;
 }
 
+#fifth_front {
+    width: 100%;
+    height: auto;
+}
+
+#fifth_back {
+    width: 100%;
+    height: auto;
+}
+
 /* 모바일 iphone 5*/
 @media screen
 and (max-width: 320px) {
-    #fifth_front {
+    #fifth_front_wrap {
         width: 45%;
         height: 45%;
     }
 
-    #fifth_back {
+    #fifth_back_wrap {
         width: 45%;
         height: 45%;
     }
@@ -28,12 +46,12 @@ and (max-width: 320px) {
 @media screen
 and (min-width: 321px)
 and (max-width: 375px) {
-    #fifth_front {
+    #fifth_front_wrap {
         width: 45%;
         height: 45%;
     }
 
-    #fifth_back {
+    #fifth_back_wrap {
         width: 45%;
         height: 45%;
     }
@@ -43,12 +61,12 @@ and (max-width: 375px) {
 @media screen
 and (min-width: 376px)
 and (max-width: 414px) {
-    #fifth_front {
+    #fifth_front_wrap {
         width: 45%;
         height: 45%;
     }
 
-    #fifth_back {
+    #fifth_back_wrap {
         width: 45%;
         height: 45%;
     }
@@ -58,12 +76,12 @@ and (max-width: 414px) {
 @media screen
 and (min-width: 415px)
 and (max-width: 767px) {
-    #fifth_front {
+    #fifth_front_wrap {
         width: 45%;
         height: 45%;
     }
 
-    #fifth_back {
+    #fifth_back_wrap {
         width: 45%;
         height: 45%;
     }
@@ -73,7 +91,15 @@ and (max-width: 767px) {
 @media screen
 and (min-width: 768px)
 and (max-width: 1024px) {
+    #fifth_front_wrap {
+        width: 30%;
+        height: 30%;
+    }
 
+    #fifth_back_wrap {
+        width: 30%;
+        height: 30%;
+    }
 }
 
 /* desktops */
