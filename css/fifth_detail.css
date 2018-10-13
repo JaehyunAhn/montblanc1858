@@ -8,16 +8,16 @@
     padding: 10px 0 10px 0;
 }
 
+#fifth_first, #fifth_second {
+    margin-top: 5px;
+}
+
 .detail_block {
     width: 100%;
-    height: auto;
-    padding: 10px;
-    background-color: rgba(0,0,0,0.7);
-    border-radius: 5px;
+    height: 80px;
     color: white;
     line-height: 1.4em;
     text-align: justify;
-    margin-bottom: 10px;
 }
 
 #detail_wrap1 {
@@ -35,17 +35,21 @@
 }
 
 #fifth_front_desc {
-    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.7);
 }
 
 #fifth_back_desc {
-    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.7);
 }
 
 #fifth_title {
@@ -57,14 +61,16 @@
 /* 모바일 iphone 5*/
 @media screen
 and (max-width: 320px) {
-    #fifth_front_desc, #fifth_front_wrap {
+    #fifth_front_wrap, #fifth_back_wrap {
         width: 45%;
         height: 45%;
     }
-
-    #fifth_back_desc, #fifth_back_wrap {
-        width: 45%;
-        height: 45%;
+    
+    #fifth_front_desc, #fifth_back_desc {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left: 0;
     }
 }
 
@@ -128,6 +134,7 @@ and (max-width: 1024px) {
     }
 }
 
+
 @media screen and (max-width: 1024px) {
     #fifth_front {
         width: 100%;
@@ -137,15 +144,6 @@ and (max-width: 1024px) {
     #fifth_back {
         width: 100%;
         height: auto;
-    }
-    #fifth_front_desc, #fifth_front_wrap {
-        width: 40%;
-        height: 40%;
-    }
-
-    #fifth_back_desc, #fifth_back_wrap {
-        width: 40%;
-        height: 40%;
     }
 }
 
@@ -172,4 +170,54 @@ and (min-width: 1025px) {
         width: 40%;
         height: 40%;
     }
+}
+
+#df1 > .back {
+    background-image: url('../images/fifth_detailview/front.png');
+    background-size: cover;
+    background-position: 0% 50%;
+}
+
+#df2 > .back {
+    background-image: url('../images/fifth_detailview/front.png');
+    background-size: cover;
+    background-position: 0% 61%;
+}
+
+#df3 > .back {
+    background-image: url('../images/fifth_detailview/front.png');
+    background-size: cover;
+    background-position: 0% 45%;
+}
+
+#df4 > .back {
+    background-image: url('../images/fifth_detailview/front.png');
+    background-size: cover;
+    background-position: -10% 50%;
+}
+
+#db1 > .back {
+    background-image: url('../images/fifth_detailview/front.png');
+    background-size: cover;
+    background-position: -10% 50%;
+}
+#db2 > .back {
+    background-image: url('../images/fifth_detailview/front.png');
+    background-size: cover;
+    background-position: -10% 50%;
+}
+#db3 > .back {
+    background-image: url('../images/fifth_detailview/front.png');
+    background-size: cover;
+    background-position: -10% 50%;
+}
+#db4 > .back {
+    background-image: url('../images/fifth_detailview/front.png');
+    background-size: cover;
+    background-position: -10% 50%;
+}
+#db5 > .back {
+    background-image: url('../images/fifth_detailview/front.png');
+    background-size: cover;
+    background-position: -10% 50%;
 }

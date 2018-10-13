@@ -252,9 +252,9 @@ and (max-width: 767px) {
 and (min-width: 768px)
 and (max-width: 1024px) {
     #review_title {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
     #review_text {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 }

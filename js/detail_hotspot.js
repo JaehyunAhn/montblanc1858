@@ -3,12 +3,7 @@
 /* when hamburger opened */
 $(window).on("load", function () {
     "use strict";
-    get_hotspots();
-    $(window).resize(function() {
-        get_hotspots();
+    $('#df1, #df2, #df3, #df4, #db1, #db2, #db3, #db4, #db5').flip({
+        'axis': 'y'
     });
 });
-    
-function get_hotspots () {
-    
-}
