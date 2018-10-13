@@ -10,5 +10,6 @@ $(document).ready(function () {
             prevEl: '.swiper-button-prev',
         },
         speed: 300,
+        loop: true,
     });
   });
