@@ -4,7 +4,8 @@
 	-webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
 	animation: Gradient 10s ease infinite;
-    padding-bottom: 10px;
+    
+    padding: 10px 0 10px 0;
 }
 
 #hotspot_element {

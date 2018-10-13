@@ -4,15 +4,14 @@
     display: none;
 }
 
-#foruth_title {
+.disp_none {
+    display: none;
+}
+
+#fourth_title {
     width: 100vw;
     height: auto;
     color: #f8f8ff;
-}
-
-/* for review */
-.disp_none {
-    display: none;
 }
 
 #review {
@@ -31,6 +30,29 @@
     height: auto;
     bottom: 5vh;
     left: 0;
+}
+
+#review_image_wrap {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+#review_image1 {
+    width: 32%;
+    height: 32%;
+}
+
+#review_image2 {
+    width: 32%;
+    height: 32%;
+}
+
+#review_image3 {
+    width: 32%;
+    height: 32%;
 }
 
 /* for review done */
@@ -136,6 +158,10 @@ and (max-width: 320px) {
         height: 120vh;
         width: auto;
     }
+    
+    #foruth_title {
+        font-size: 1em;
+    }
 }
 
 /* mobile iphone 6 */
@@ -143,7 +169,7 @@ and (max-width: 320px) {
 and (min-width: 321px)
 and (max-width: 375px) {
     #fourth_reviews {
-        height: 100vh;
+        height: 120vh;
         width: auto;
     }
 }

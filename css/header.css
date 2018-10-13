@@ -27,7 +27,7 @@
     
     #header-container > .right {
         position: absolute;
-        right: 7px;
+        right: 0px;
     }
 }
 
@@ -44,6 +44,7 @@
     }
     
     #montblanc_logo {
+        margin-left: 10px;
         margin-top: -4px;
     }
 }
@@ -51,7 +52,6 @@
 #header-container {
     z-index: 100;
     position: fixed;
-    padding: 10px;
     width: 100%;
     height: 30px;
 
