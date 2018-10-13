@@ -6,8 +6,7 @@ $(window).on("load", function () {
     
     var half12_flag = true,
         half23_flag = true,
-        half34_flag = true,
-        half45_flag = true;
+        half34_flag = true;
 
     /* scroll 시 TOP 애니메이션 설정 */
     $(window).scroll(function () {
@@ -16,11 +15,9 @@ $(window).on("load", function () {
             second_minerva = $('#second_minerva').position().top,
             third_column = $('#third_1858column').position().top,
             fourth_reviews = $('#fourth_reviews').position().top,
-            fifth_detail = $('#fifth_detail_view').position().top,
             half12 = (second_minerva - first_container) / 3,
             half23 = (third_column - second_minerva) / 3 + second_minerva,
-            half34 = (fourth_reviews - third_column) / 3 + third_column,
-            half45 = (fifth_detail - fourth_reviews) / 3 + fourth_reviews;
+            half34 = (fourth_reviews - third_column) / 3 + third_column;
         
         if (height >= half12) {
             // desolve 2 items
@@ -60,14 +57,6 @@ $(window).on("load", function () {
                     });
                 });
                 half34_flag = false;
-            }
-        }
-        if (height >= half45) {
-            if (half45_flag) {
-                $('#fifth_front').fadeIn(1000, function () {
-                    $('#fifth_back').fadeIn(1000);
-                })
-                half45_flag = false;
             }
         }
     });

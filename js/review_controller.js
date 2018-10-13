@@ -36,7 +36,7 @@ $(window).on("load", function () {
         $('#review_button').attr('href', 'https://www.montblanc.com/ko-kr/collection/watches/montblanc-1858-collection/117832-montblanc-1858-automatic.html');
     });
     
-    $("#review12").click(function () {
+    $("#review12, #fifth_second").click(function () {
         image1.attr('src', './images/fourth_4watches/r2-1.png');
         image2.attr('src', './images/fourth_4watches/r2-2.png');
         image3.attr('src', './images/fourth_4watches/r2-3.png');
@@ -52,7 +52,7 @@ $(window).on("load", function () {
         $('#review_button').attr('href', 'https://www.montblanc.com/ko-kr/collection/watches/montblanc-1858-collection/117835-montblanc-1858-automatic-chronograph.html');
     });
     
-    $("#review21").click(function () {
+    $("#review21, #fifth_first").click(function () {
         image1.attr('src', './images/fourth_4watches/r4-1.png');
         image2.attr('src', './images/fourth_4watches/r4-2.png');
         image3.attr('src', './images/fourth_4watches/r4-3.png');

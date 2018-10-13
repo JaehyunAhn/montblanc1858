@@ -117,4 +117,12 @@ and (min-width: 1025px) {
         height: auto;
         margin-top: 2%;
     }
+    
+    #title_2 {
+        font-size: 1.2em;
+    }
+    #text_2 {
+        font-size: 0.9oem;
+        margin: 0;
+    }
 }
