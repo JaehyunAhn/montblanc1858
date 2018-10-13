@@ -75,11 +75,12 @@ and (max-width: 1024px) {
     .right-container {
         border-radius: 10px;
         width: 70%;
-        height: 80%;
+        height: auto;
         padding: 20px;
         top: 5%;
         right: 2.5%;
         
+        font-size: 1.2em;
         line-height: 1.6em;
         word-break: break-all;
         overflow: hidden; 

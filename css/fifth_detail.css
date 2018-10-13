@@ -8,12 +8,6 @@
     padding: 10px 0 10px 0;
 }
 
-#hotspot_element {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 #fifth_front_wrap {
     position: relative;
 }
@@ -25,16 +19,6 @@
 #fifth_title {
     margin-left: 3%;
     width: 100vw;
-    height: auto;
-}
-
-#fifth_front {
-    width: 100%;
-    height: auto;
-}
-
-#fifth_back {
-    width: 100%;
     height: auto;
 }
 
@@ -112,8 +96,29 @@ and (max-width: 1024px) {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    #fifth_front {
+        width: 100%;
+        height: auto;
+    }
+
+    #fifth_back {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
 /* desktops */
 @media screen
 and (min-width: 1025px) {
+    #fifth_front {
+        width: 70%;
+        height: auto;
+    }
 
+    #fifth_back {
+        width: 70%;
+        height: auto;
+    }
 }
