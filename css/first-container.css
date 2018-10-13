@@ -33,6 +33,9 @@ body, html {
     background-image: url(../images/first_container/background-image.jpg);
     
     height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,8 +52,10 @@ body, html {
 /* 비디오 */
 #first-container > #palette > video {
     position: absolute;
+    object-fit: cover;
+    
     height: 100vh;
-    width: auto;
+    width: 100vw;
     z-index: 9;
 }
 

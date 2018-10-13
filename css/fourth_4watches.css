@@ -21,7 +21,16 @@
     height: 100vh;
     position: fixed;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.95);
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.93);
+}
+
+#review_button_section {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 5vh;
+    left: 0;
 }
 
 /* for review done */
@@ -86,12 +95,13 @@
 #fourth_reviews > .fourth_columns > img {
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
 }
 
 /* 모바일 */
 @media screen and (max-width: 1024px) {
     .fourth_columns {
-        width: 40%;
+        width: 44%;
         height: auto;
         padding: 1%;
         text-align: center;

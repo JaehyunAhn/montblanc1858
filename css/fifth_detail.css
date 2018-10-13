@@ -1,3 +1,12 @@
+#fifth_detail_view {
+    background: linear-gradient(-35deg, #8F9FAF, #8FAF9F, #AF8F9F, #6F7a85, #908070);
+    background-size: 600% 600%;
+	-webkit-animation: Gradient 10s ease infinite;
+	-moz-animation: Gradient 10s ease infinite;
+	animation: Gradient 10s ease infinite;
+    padding-bottom: 10px;
+}
+
 #hotspot_element {
     display: flex;
     flex-wrap: wrap;
