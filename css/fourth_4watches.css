@@ -35,7 +35,7 @@
     position: absolute;
     width: 100%;
     height: auto;
-    bottom: 2vh;
+    bottom: 5%;
     left: 0;
 }
 
@@ -123,7 +123,11 @@
     }
     
     #review {
-        padding: 5%;
+        padding: 2%;
+    }
+    
+    #review_title, #review_text {
+        padding: 0 3% 0 3%;
     }
     
     #fourth_dummy {
@@ -201,6 +205,14 @@ and (max-width: 320px) {
     
     #foruth_title {
         font-size: 1em;
+    }
+    
+    #review_text {
+        font-size: 0.9em;
+    }
+    
+    .button_item {
+        font-size: 0.7em;
     }
 }
 

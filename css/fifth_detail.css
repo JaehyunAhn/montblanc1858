@@ -8,11 +8,30 @@
     padding: 10px 0 10px 0;
 }
 
-#fifth_front_wrap {
+#detail_wrap1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#detail_wrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fifth_front {
+    display: none;
+}
+#fifth_back {
+    display: none;
+}
+
+#fifth_front_desc {
     position: relative;
 }
 
-#fifth_back_wrap {
+#fifth_back_desc {
     position: relative;
 }
 
@@ -25,12 +44,12 @@
 /* 모바일 iphone 5*/
 @media screen
 and (max-width: 320px) {
-    #fifth_front_wrap {
+    #fifth_front_desc, #fifth_front_wrap {
         width: 45%;
         height: 45%;
     }
 
-    #fifth_back_wrap {
+    #fifth_back_desc, #fifth_back_wrap {
         width: 45%;
         height: 45%;
     }
@@ -40,12 +59,12 @@ and (max-width: 320px) {
 @media screen
 and (min-width: 321px)
 and (max-width: 375px) {
-    #fifth_front_wrap {
+    #fifth_front_desc, #fifth_front_wrap {
         width: 45%;
         height: 45%;
     }
 
-    #fifth_back_wrap {
+    #fifth_back_desc, #fifth_back_wrap {
         width: 45%;
         height: 45%;
     }
@@ -55,12 +74,12 @@ and (max-width: 375px) {
 @media screen
 and (min-width: 376px)
 and (max-width: 414px) {
-    #fifth_front_wrap {
+    #fifth_front_desc, #fifth_front_wrap {
         width: 45%;
         height: 45%;
     }
 
-    #fifth_back_wrap {
+    #fifth_back_desc, #fifth_back_wrap {
         width: 45%;
         height: 45%;
     }
@@ -70,12 +89,12 @@ and (max-width: 414px) {
 @media screen
 and (min-width: 415px)
 and (max-width: 767px) {
-    #fifth_front_wrap {
+    #fifth_front_desc, #fifth_front_wrap {
         width: 30%;
         height: 30%;
     }
 
-    #fifth_back_wrap {
+    #fifth_back_desc, #fifth_back_wrap {
         width: 30%;
         height: 30%;
     }
@@ -85,12 +104,12 @@ and (max-width: 767px) {
 @media screen
 and (min-width: 768px)
 and (max-width: 1024px) {
-    #fifth_front_wrap {
+    #fifth_front_desc, #fifth_front_wrap {
         width: 30%;
         height: 30%;
     }
 
-    #fifth_back_wrap {
+    #fifth_back_desc, #fifth_back_wrap {
         width: 30%;
         height: 30%;
     }

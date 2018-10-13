@@ -7,17 +7,6 @@
 #third_title {
     display: none;
 }
-/*
-
-#third_text {
-    display: none;
-}
-*/
-/*
-#button_3 {
-    display: none;
-}
-*/
 
 #particles-js, #particles-js canvas {
     height: 100%;
@@ -38,7 +27,7 @@
     background-size: 100% 100%;
 */
     width: 100vw;
-    height: 100%;
+    height: auto;
 }
 
 #third_text_wrap {
@@ -46,7 +35,8 @@
     z-index: 15;
     padding: 10px;
     line-height: 1.6em;
-    max-width: 90%;
+    max-width: 100%;
+    height: auto;
     text-align: justify;
 }
 
@@ -101,7 +91,12 @@ and (max-width: 414px) {
 @media screen
 and (min-width: 415px)
 and (max-width: 767px) {
-    
+    #third_background_image > img {
+        position: relative;
+        z-index: 1;
+        width: auto;
+        height: 100vh;
+    }
 }
 
 /* iPad mini to Pro */
