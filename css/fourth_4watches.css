@@ -236,7 +236,7 @@ and (max-width: 375px) {
 and (min-width: 376px)
 and (max-width: 414px) {
     #fourth_reviews {
-        height: 100vh;
+        height: 120vh;
         width: auto;
     }
 }
