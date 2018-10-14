@@ -67,16 +67,16 @@ $(window).on("load", function () {
         }
         if (height >= half45) {
             if (half45_flag) {
-                $('#fifth_front_desc').fadeIn(2000, function () {
-                    $('#fifth_front').fadeTo(1000, 0.4);
+                $('#fifth_front').fadeTo(2000, 0.4, function () {
+                    $('#fifth_front_desc').fadeIn(1000);
                 });
                 half45_flag = false;
             }
         }
         if (height >= half45_2) {
             if (half45_2_flag) {
-                $('#fifth_back_desc').fadeIn(2000, function () {
-                    $('#fifth_back').fadeTo(1000, 0.4);
+                $('#fifth_back').fadeTo(2000, 0.4, function () {
+                    $('#fifth_back_desc').fadeIn(1000);
                 });
                 half45_2_flag = false;
             }
