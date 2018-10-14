@@ -7,7 +7,8 @@ $(window).on("load", function () {
     var half12_flag = true,
         half23_flag = true,
         half34_flag = true,
-        half45_flag = true;
+        half45_flag = true,
+        half45_2_flag = true;
 
     /* scroll 시 TOP 애니메이션 설정 */
     $(window).scroll(function () {
@@ -17,10 +18,12 @@ $(window).on("load", function () {
             third_column = $('#third_1858column').position().top,
             fourth_reviews = $('#fourth_reviews').position().top,
             fifth_detail = $('#fifth_detail_view').position().top,
+            fifth_second = $('#detail_wrap2').position().top,
             half12 = (second_minerva - first_container) / 3,
             half23 = (third_column - second_minerva) / 3 + second_minerva,
             half34 = (fourth_reviews - third_column) / 3 + third_column,
-            half45 = (fifth_detail - fourth_reviews) + fourth_reviews;
+            half45 = (fifth_detail - fourth_reviews) / 4 + fourth_reviews,
+            half45_2 = (fifth_second - fifth_detail) / 4 + fifth_detail;
         
         if (height >= half12) {
             // desolve 2 items
@@ -65,8 +68,17 @@ $(window).on("load", function () {
         if (height >= half45) {
             if (half45_flag) {
                 $('#fifth_front_desc').fadeIn(2000, function () {
-                    $('#fifth_back_desc').fadeIn(2000);
+                    $('#fifth_front').fadeTo(1000, 0.4);
                 });
+                half45_flag = false;
+            }
+        }
+        if (height >= half45_2) {
+            if (half45_2_flag) {
+                $('#fifth_back_desc').fadeIn(2000, function () {
+                    $('#fifth_back').fadeTo(1000, 0.4);
+                });
+                half45_2_flag = false;
             }
         }
     });
