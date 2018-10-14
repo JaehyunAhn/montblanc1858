@@ -67,21 +67,20 @@ $(window).on("load", function () {
         }
         if (height >= half45) {
             if (half45_flag) {
-                $('#fifth_front').fadeTo(2000, 0.4, function () {
-                    $('#fifth_front_desc').fadeIn(1000, function () {
-                        // flip animation works this helps user understand its animation
-                        $('#df1, #df2, #df3, #df4').flip(true);
-                    });
+                $('#fifth_front').fadeTo(2000, 0.4, function () {});
+                $('#fifth_front_desc').fadeIn(2000, function () {
+                    // flip animation works this helps user understand its animation
+                    $('#df1, #df2, #df3, #df4').flip(true);
                 });
                 half45_flag = false;
             }
         }
         if (height >= half45_2) {
             if (half45_2_flag) {
-                $('#fifth_back').fadeTo(2000, 0.4, function () {
-                    $('#fifth_back_desc').fadeIn(1000, function () {
-                        // flip animation works this helps user understand its animation
-                    });
+                $('#fifth_back').fadeTo(2000, 0.4, function () {});
+                $('#fifth_back_desc').fadeIn(2000, function () {
+                    // flip animation works this helps user understand its animation
+                    $('#db1, #db2, #db3, #db4, #db5, #db6').flip(true);
                 });
                 half45_2_flag = false;
             }

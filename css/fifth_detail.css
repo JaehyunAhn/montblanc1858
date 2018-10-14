@@ -20,6 +20,8 @@
     color: white;
     line-height: 1.4em;
     text-align: justify;
+    margin-top: 3px;
+    display: flex;
 }
 
 #detail_wrap1 {
@@ -171,52 +173,20 @@ and (min-width: 1025px) {
     }
 }
 
-#df1 > .back {
-    background-image: url('../images/fifth_detailview/front.png');
-    background-size: cover;
-    background-position: 0% 50%;
+.back {
+    border-radius: 10px;
 }
 
-#df2 > .back {
-    background-image: url('../images/fifth_detailview/front.png');
-    background-size: cover;
-    background-position: 0% 61%;
+.back img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-#df3 > .back {
-    background-image: url('../images/fifth_detailview/front.png');
-    background-size: cover;
-    background-position: 0% 45%;
+.back1 {
+    background-color: #282828;
 }
 
-#df4 > .back {
-    background-image: url('../images/fifth_detailview/front.png');
-    background-size: cover;
-    background-position: -10% 50%;
-}
-
-#db1 > .back {
-    background-image: url('../images/fifth_detailview/front.png');
-    background-size: cover;
-    background-position: -10% 50%;
-}
-#db2 > .back {
-    background-image: url('../images/fifth_detailview/front.png');
-    background-size: cover;
-    background-position: -10% 50%;
-}
-#db3 > .back {
-    background-image: url('../images/fifth_detailview/front.png');
-    background-size: cover;
-    background-position: -10% 50%;
-}
-#db4 > .back {
-    background-image: url('../images/fifth_detailview/front.png');
-    background-size: cover;
-    background-position: -10% 50%;
-}
-#db5 > .back {
-    background-image: url('../images/fifth_detailview/front.png');
-    background-size: cover;
-    background-position: -10% 50%;
+.back2 {
+    background-color: #a7835b;
 }
