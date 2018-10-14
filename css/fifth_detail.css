@@ -10,6 +10,8 @@
 
 #fifth_first, #fifth_second {
     margin-top: 5px;
+    padding: 5px 0 5px 0;
+    width: 100%;
 }
 
 .detail_block {
@@ -62,15 +64,15 @@
 @media screen
 and (max-width: 320px) {
     #fifth_front_wrap, #fifth_back_wrap {
-        width: 45%;
-        height: 45%;
+        width: 100%;
+        height: auto;
     }
     
     #fifth_front_desc, #fifth_back_desc {
         position: absolute;
-        width: 100%;
+        width: 90%;
         height: auto;
-        left: 0;
+        left: 2%;
     }
 }
 
@@ -78,14 +80,16 @@ and (max-width: 320px) {
 @media screen
 and (min-width: 321px)
 and (max-width: 375px) {
-    #fifth_front_desc, #fifth_front_wrap {
-        width: 45%;
-        height: 45%;
+    #fifth_front_wrap, #fifth_back_wrap {
+        width: 100%;
+        height: auto;
     }
-
-    #fifth_back_desc, #fifth_back_wrap {
-        width: 45%;
-        height: 45%;
+    
+    #fifth_front_desc, #fifth_back_desc {
+        position: absolute;
+        width: 90%;
+        height: auto;
+        left: 2%;
     }
 }
 
@@ -93,14 +97,16 @@ and (max-width: 375px) {
 @media screen
 and (min-width: 376px)
 and (max-width: 414px) {
-    #fifth_front_desc, #fifth_front_wrap {
-        width: 45%;
-        height: 45%;
+    #fifth_front_wrap, #fifth_back_wrap {
+        width: 100%;
+        height: auto;
     }
-
-    #fifth_back_desc, #fifth_back_wrap {
-        width: 45%;
-        height: 45%;
+    
+    #fifth_front_desc, #fifth_back_desc {
+        position: absolute;
+        width: 90%;
+        height: auto;
+        left: 2%;
     }
 }
 
@@ -109,13 +115,13 @@ and (max-width: 414px) {
 and (min-width: 415px)
 and (max-width: 767px) {
     #fifth_front_desc, #fifth_front_wrap {
-        width: 30%;
-        height: 30%;
+        width: 40%;
+        height: 40%;
     }
 
     #fifth_back_desc, #fifth_back_wrap {
-        width: 30%;
-        height: 30%;
+        width: 40%;
+        height: 40%;
     }
 }
 
@@ -124,13 +130,13 @@ and (max-width: 767px) {
 and (min-width: 768px)
 and (max-width: 1024px) {
     #fifth_front_desc, #fifth_front_wrap {
-        width: 30%;
-        height: 30%;
+        width: 40%;
+        height: 40%;
     }
 
     #fifth_back_desc, #fifth_back_wrap {
-        width: 30%;
-        height: 30%;
+        width: 40%;
+        height: 40%;
     }
 }
 
