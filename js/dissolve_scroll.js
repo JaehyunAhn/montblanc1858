@@ -22,7 +22,7 @@ $(window).on("load", function () {
             half12 = (second_minerva - first_container) / 3,
             half23 = (third_column - second_minerva) / 3 + second_minerva,
             half34 = (fourth_reviews - third_column) / 3 + third_column,
-            half45 = (fifth_detail - fourth_reviews) / 4 + fourth_reviews,
+            half45 = (fifth_detail) / 5 + fourth_reviews,
             half45_2 = (fifth_second - fifth_detail) / 4 + fifth_detail;
         
         if (height >= half12) {
@@ -56,8 +56,8 @@ $(window).on("load", function () {
         if (height >= half34) {
             if (half34_flag) {
                 $('#fourth_11').fadeIn(1000, function () {
-                    $('#fourth_12').fadeIn(1000, function () {
-                        $('#fourth_21').fadeIn(1000, function () {
+                    $('#fourth_21').fadeIn(1000, function () {
+                        $('#fourth_12').fadeIn(1000, function () {
                             $('#fourth_22').fadeIn(1000);
                         });
                     });
@@ -67,7 +67,7 @@ $(window).on("load", function () {
         }
         if (height >= half45) {
             if (half45_flag) {
-                $('#fifth_front').fadeTo(2000, 0.4, function () {});
+                $('#fifth_front').fadeTo(2000, 0.7, function () {});
                 $('#fifth_front_desc').fadeIn(2000, function () {
                     // flip animation works this helps user understand its animation
                     $('#df1, #df2, #df3, #df4').flip(true);
@@ -77,7 +77,7 @@ $(window).on("load", function () {
         }
         if (height >= half45_2) {
             if (half45_2_flag) {
-                $('#fifth_back').fadeTo(2000, 0.4, function () {});
+                $('#fifth_back').fadeTo(2000, 0.7, function () {});
                 $('#fifth_back_desc').fadeIn(2000, function () {
                     // flip animation works this helps user understand its animation
                     $('#db1, #db2, #db3, #db4, #db5, #db6').flip(true);

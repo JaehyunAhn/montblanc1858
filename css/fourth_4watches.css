@@ -35,7 +35,7 @@
     position: absolute;
     width: 100%;
     height: auto;
-    bottom: 5%;
+    bottom: 8%;
     left: 0;
 }
 
@@ -139,18 +139,18 @@
     }
     
     #review_image1 {
-    width: 32%;
-    height: 32%;
+    width: 30%;
+    height: 30%;
 }
 
     #review_image2 {
-        width: 32%;
-        height: 32%;
+        width: 30%;
+        height: 30%;
     }
 
     #review_image3 {
-        width: 32%;
-        height: 32%;
+        width: 30%;
+        height: 30%;
     }
 }
 
@@ -192,10 +192,10 @@
         width: auto;
     }
     #review_title {
-        font-size: 2em;
+        font-size: 1.2em;
     }
     #review_text {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     #review_title, #review_text {
         padding: 0 3% 0 3%;
@@ -216,11 +216,11 @@ and (max-width: 320px) {
     }
     
     #review_text {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
     
     .button_item {
-        font-size: 0.1em;
+        font-size: 0.75em;
     }
 }
 
@@ -229,11 +229,14 @@ and (max-width: 320px) {
 and (min-width: 321px)
 and (max-width: 375px) {
     #fourth_reviews {
-        height: 120vh;
+        height: 140vh;
         width: auto;
     }
+    #review_text {
+        font-size: 0.8em;
+    }
     .button_item {
-        font-size: 0.4em;
+        font-size: 0.8em;
     }
 }
 
@@ -245,8 +248,11 @@ and (max-width: 414px) {
         height: 140vh;
         width: auto;
     }
+    #review_text {
+        font-size: 0.9em;
+    }
     .button_item {
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 }
 
@@ -261,9 +267,9 @@ and (max-width: 767px) {
 and (min-width: 768px)
 and (max-width: 1024px) {
     #review_title {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     #review_text {
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
 }

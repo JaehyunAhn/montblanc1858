@@ -47,8 +47,8 @@ $(window).on("load", function () {
         image3.animate({opacity: 1}, 1600);
         
         $('#review_title').text('몽블랑 1858 오토매틱 크로노그래프 (Montblanc 1858 Automatic Chronograph)');
-        $('#review_text').html("몽블랑 1858 크로노그래프 오토매틱은 컬렉션을 관통하는 빈티지 디자인 코드와 크로노그래프 기능을 결합했다. 스테인리스 스틸이나 브론즈 케이스 중 선택할 수 있다.<br><br>\
-브론즈 모델의 선레이 마감 스모크 샴페인 컬러 다이얼은 미네르바의 역사적인 크로노그래프에서 영감을 받은 3시와 9시 방향의 바이-컴팩스(Bi-Compax) 카운터를 더욱 돋보이게 한다. <br><br>다이얼에는 슈퍼 루미노바 코팅된 베이지 컬러의 루미너스 아라비아 숫자와 고전적인 커시드럴(Cathedral) 핸즈를 사용했다.");
+        $('#review_text').html("몽블랑 1858 크로노그래프 오토매틱은 컬렉션을 관통하는 빈티지 디자인 코드와 크로노그래프 기능을 결합했다. 스테인리스 스틸이나 브론즈 케이스 중 선택할 수 있다.<br>\
+브론즈 모델의 선레이 마감 스모크 샴페인 컬러 다이얼은 미네르바의 역사적인 크로노그래프에서 영감을 받은 3시와 9시 방향의 바이-컴팩스(Bi-Compax) 카운터를 더욱 돋보이게 한다. <br>다이얼에는 슈퍼 루미노바 코팅된 베이지 컬러의 루미너스 아라비아 숫자와 고전적인 커시드럴(Cathedral) 핸즈를 사용했다.");
         $('#review_button').attr('href', 'https://www.montblanc.com/ko-kr/collection/watches/montblanc-1858-collection/117835-montblanc-1858-automatic-chronograph.html');
     });
     

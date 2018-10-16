@@ -6,27 +6,15 @@ $(window).on("load", function(){
     var video_source = document.querySelector('video');
     var video_storage = [
         './video/movie1_conv.mp4',
+        './video/movie2.mp4',
+        './video/movie3.mp4',
     ];
-    /*
-    // check browser is chrome & safari;
-    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)  {
-        //i.e. apply safari class via jquery
-        video_storage = [
-        './movie/tank100_1.mp4',
-        './movie/tank100_2.mp4'
-        ];
-    }
-    else {
-        video_storage = [
-          './movie/tank100_1.mp4'
-      ];
-    }
-    */
 
     var active_video_url = video_storage[Math.round(Math.random()*(video_storage.length -1))];
 
     if(video_source.canPlayType('video/mp4;')) {
         video_source.setAttribute('src', active_video_url);
+        console.log(active_video_url + ' were playing.');
     }
 
     if (navigator.userAgent.match(/(iPod|iPhone)/)) {
