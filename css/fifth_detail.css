@@ -44,7 +44,7 @@
     flex-direction: column;
     padding: 10px;
     border-radius: 5px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.2);
     display: none;
     z-index: 100;
 }

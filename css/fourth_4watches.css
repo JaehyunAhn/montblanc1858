@@ -115,11 +115,14 @@
 /* 모바일 */
 @media screen and (max-width: 1024px) {
     .fourth_columns {
-        width: 44%;
+        width: 46%;
         height: auto;
         padding: 1%;
         text-align: center;
         margin-bottom: 10px;
+    }
+    .button_item {
+        font-size: 1em;
     }
     
     #review {
@@ -131,7 +134,7 @@
     }
     
     #fourth_dummy {
-        width:5%; 
+        width:1%; 
         height:10px;
     }
     
@@ -157,7 +160,7 @@
         padding: 1%;
     }
     .button_item {
-        font-size: 1.3em;
+        font-size: 0.8em;
     }
     .fourth_columns {
         width: 20%;
@@ -204,7 +207,7 @@
 @media screen
 and (max-width: 320px) {
     #fourth_reviews {
-        height: 120vh;
+        height: 140vh;
         width: auto;
     }
     
@@ -217,7 +220,7 @@ and (max-width: 320px) {
     }
     
     .button_item {
-        font-size: 0.7em;
+        font-size: 0.1em;
     }
 }
 
@@ -229,6 +232,9 @@ and (max-width: 375px) {
         height: 120vh;
         width: auto;
     }
+    .button_item {
+        font-size: 0.4em;
+    }
 }
 
 /* mobile iphone 6+ */
@@ -236,8 +242,11 @@ and (max-width: 375px) {
 and (min-width: 376px)
 and (max-width: 414px) {
     #fourth_reviews {
-        height: 100vh;
+        height: 140vh;
         width: auto;
+    }
+    .button_item {
+        font-size: 0.5em;
     }
 }
 
