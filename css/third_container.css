@@ -12,20 +12,22 @@
     height: 100%;
     width: 100%;
     position: absolute;
+    top: 0px;
     background-color: rgba(0,0,0, 0.4);
     z-index: 10;
 }
 
 #third_1858column {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     color: #fff;
-/*
-    background: linear-gradient(-30deg, #141210, #141220, #122014, #141230);
-    background-size: 100% 100%;
-*/
+    
     width: 100vw;
     height: auto;
 }
@@ -106,6 +108,8 @@ and (min-width: 768px)
 and (max-width: 1024px) {
     #third_text_wrap {
         font-size: 1.1em;
+        left: 0px;
+        top: 5%;
     }
 }
 
@@ -114,5 +118,7 @@ and (max-width: 1024px) {
 and (min-width: 1025px) {
     #third_text_wrap {
         font-size: 1.3em;
+        left: 0px;
+        top: 15%;
     }
 }
