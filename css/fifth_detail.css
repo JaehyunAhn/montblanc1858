@@ -173,20 +173,20 @@ and (min-width: 1025px) {
     }
 }
 
-.front {
+.back {
     border-radius: 10px;
 }
 
-.front img {
+.back img {
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-.front1 {
+.back1 {
     background-color: #282828;
 }
 
-.front2 {
+.back2 {
     background-color: #a7835b;
 }

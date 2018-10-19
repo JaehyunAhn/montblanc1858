@@ -33,7 +33,7 @@ $(window).on("load", function () {
         $('#review_title').text('몽블랑 1858 오토매틱 (Montblanc 1858 Automatic)');
         $('#review_text').html("몽블랑 1858 오토매틱은 스테인리스 스틸 케이스에 브론즈 소재를 혼용하고 특유의 빈티지 코드로 무장해 특색을 보인다. 이번 컬렉션에서는 보다 작고 웨어러블한 40mm 사이즈로 선보인다.<br><br>\
 블랙 또는 스모크 샴페인 두 가지 컬러 다이얼로 역사적인 미네르바의 타임피스를 재해석하며, 두 다이얼 모두 베이지 색의 루미너스 아라비아 숫자와 레일웨이 미닛 트랙을 사용했다. 몽블랑 1858 오토매틱은 수심 100m까지 방수가 되며 몽블랑 랩 테스트 500을 통과했다.");
-        $('#detail_button').attr('href', 'https://www.montblanc.com/ko-kr/collection/watches/montblanc-1858-collection/117832-montblanc-1858-automatic.html');
+        $('#detail_button').attr('href', 'https://www.montblanc.com/ko-kr/collection/watches/montblanc-1858-collection/117833-montblanc-1858-automatic.html');
         $('#review_button').attr('href', 'http://facebook.com');
     });
     
