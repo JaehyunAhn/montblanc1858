@@ -37,7 +37,7 @@ $(window).on("load", function () {
         $('#review_button').attr('href', 'http://facebook.com');
     });
     
-    $("#review12, #fifth_second").click(function () {
+    $("#review12").click(function () {
         image1.attr('src', './images/fourth_4watches/r2-1.png');
         image2.attr('src', './images/fourth_4watches/r2-2.png');
         image3.attr('src', './images/fourth_4watches/r2-3.png');
@@ -54,7 +54,7 @@ $(window).on("load", function () {
         $('#review_button').attr('href', 'http://facebook.com');
     });
     
-    $("#review21, #fifth_first").click(function () {
+    $("#review21").click(function () {
         image1.attr('src', './images/fourth_4watches/r4-1.png');
         image2.attr('src', './images/fourth_4watches/r4-2.png');
         image3.attr('src', './images/fourth_4watches/r4-3.png');
