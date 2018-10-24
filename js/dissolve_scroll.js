@@ -34,7 +34,7 @@ $(window).on("load", function () {
                 $('#minerva_logo').fadeIn(1000, function () {
                     $('#title_2').fadeIn(1000, function () {
                         $('#text_2').fadeIn(1000, function () {
-                            $('#button_2').fadeIn(1500);
+                            $('#button_2_1, #button_2_2').fadeIn(1500);
                         });
                     });
                 });
