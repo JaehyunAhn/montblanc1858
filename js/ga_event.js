@@ -21,16 +21,16 @@ $(window).on("load", function () {
             });
         });
     }
-    $('#movieplay').click(function () {sendEvent(this.attr('id'), 'external'); });
-    $('#button_2_1').click(function () {sendEvent(this.attr('id'), 'external'); });
-    $('#button_2_2').click(function () {sendEvent(this.attr('id'), 'external'); });
-    $('#button3').click(function () {sendEvent(this.attr('id'), 'external'); });
-    $('#review11').click(function () {sendEvent(this.attr('id'), 'internal'); });
-    $('#review12').click(function () {sendEvent(this.attr('id'), 'internal'); });
-    $('#review21').click(function () {sendEvent(this.attr('id'), 'internal'); });
-    $('#review22').click(function () {sendEvent(this.attr('id'), 'internal'); });
-    $('#fifth_first').click(function () {sendEvent(this.attr('id'), 'external'); });
-    $('#fifth_second').click(function () {sendEvent(this.attr('id'), 'external'); });
-    $('.front, .back').click(function () {sendEvent(this.attr('class'), 'internal'); });
-    $('#sixth_promotion').click(function () {sendEvent(this.attr('id'), 'external'); });
+    $('#movieplay').click(function () {sendEvent('movieplay', 'external'); });
+    $('#button_2_1').click(function () {sendEvent('minerva1', 'external'); });
+    $('#button_2_2').click(function () {sendEvent('minerva2', 'external'); });
+    $('#button3').click(function () {sendEvent('mountain', 'external'); });
+    $('#review11').click(function () {sendEvent('review11', 'internal'); });
+    $('#review12').click(function () {sendEvent('review12', 'internal'); });
+    $('#review21').click(function () {sendEvent('review21', 'internal'); });
+    $('#review22').click(function () {sendEvent('review22', 'internal'); });
+    $('#fifth_first').click(function () {sendEvent('detail1', 'external'); });
+    $('#fifth_second').click(function () {sendEvent('detail2', 'external'); });
+    $('.front, .back').click(function () {sendEvent('fifth_detail_view', 'internal'); });
+    $('#sixth_promotion').click(function () {sendEvent('promotion_page', 'external'); });
 });
