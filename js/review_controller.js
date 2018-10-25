@@ -51,7 +51,7 @@ $(window).on("load", function () {
         $('#review_text').html("몽블랑 1858 크로노그래프 오토매틱은 컬렉션을 관통하는 빈티지 디자인 코드와 크로노그래프 기능을 결합했다. 스테인리스 스틸이나 브론즈 케이스 중 선택할 수 있다.<br>\
 브론즈 모델의 선레이 마감 스모크 샴페인 컬러 다이얼은 미네르바의 역사적인 크로노그래프에서 영감을 받은 3시와 9시 방향의 바이-컴팩스(Bi-Compax) 카운터를 더욱 돋보이게 한다. <br>다이얼에는 슈퍼 루미노바 코팅된 베이지 컬러의 루미너스 아라비아 숫자와 고전적인 커시드럴(Cathedral) 핸즈를 사용했다.");
         $('#detail_button').attr('href', 'https://www.montblanc.com/ko-kr/collection/watches/montblanc-1858-collection/117835-montblanc-1858-automatic-chronograph.html');
-        $('#review_button').attr('href', 'https://www.timeforum.co.kr/SPECIAL/16785343');
+        $('#review_button').attr('href', 'https://www.timeforum.co.kr/SPECIAL/16785576');
     });
     
     $("#review21").click(function () {
@@ -70,7 +70,7 @@ $(window).on("load", function () {
 세계 7대륙 최고봉은 빨간점으로 표시하여 산악 탐험의 정신을 강조했다. 또한 케이스백에도 몽블랑 산의 형상, 나침반, 2개의 교차하는 아이스 피크를 함께 새겼고, 다이얼은 슈퍼 루미노바를 코팅하여 어둠 속에서도 최적의 가독성을 선사한다.<br>\
 스테인리스 스틸과 브론즈 두 가지 케이스 버전으로 선보이며, 브론즈 버전은 미네르바 매뉴팩처가 설립된 해를 기념하여 1,858점 생산하는 리미티드 에디션이다.");
         $('#detail_button').attr('href', 'https://www.montblanc.com/ko-kr/collection/watches/montblanc-1858-collection/119286-montblanc-1858-geosphere.html');
-        $('#review_button').attr('href', 'https://www.timeforum.co.kr/SPECIAL/16785370');
+        $('#review_button').attr('href', 'https://www.timeforum.co.kr/SPECIAL/16785603');
     });
     
     $("#review22").click(function () {
