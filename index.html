@@ -8,9 +8,10 @@
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
           gtag('config', 'UA-23339598-5');
         </script>
+        <!-- gtag event handler -->
+        <script type="text/javascript" src='./js/ga_event.js'></script>
         <!-- meta 반응형 웹 기본: 페이지 크기 및 배율 제어 -->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -100,7 +101,7 @@
                             <br>
                             <p style="font-size: 20px;">
                                 WATCH
-                                <input type='image' align='top' src='./images/first_container/play-button.png' 
+                                <input id='movieplay' type='image' align='top' src='./images/first_container/play-button.png' 
                                        style='width: 30px;outline: none;outline: 0;' 
                                        onClick="window.open('https://youtu.be/gT-5ZIYares')"
                                        onMouseOver="this.src='./images/first_container/play-button-hover.png'" 
@@ -500,7 +501,7 @@
                         타임포럼 회원분들께 '몽블랑 워치 키트'를 드립니다.
                     </h4>
                     <a href='https://www.montblanc.com/ko-kr/landingpages/x-time-forum.html' target="_blank">
-                        <button type='button' class='button_item' style='
+                        <button id='sixth_promotion' type='button' class='button_item' style='
                             width: 70%;
                             display: inline-block;
                             border: none;
